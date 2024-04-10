@@ -1,8 +1,8 @@
 stages:
   load_data:
-    cmd: python src/stage_01_load_save.py 
+    cmd: python src/stage_01_load_stage.py 
     deps:
-      - src/stage_01_load_save.py
+      - src/stage_01_load_stag.py
       - src/utils/all_utils.py
       - config/config.yaml
     outs:
