@@ -1,5 +1,10 @@
 Data Version Control is a free, open-source tool for data management, ML pipeline automation, and experiment management. This helps data science and machine learning teams manage large datasets, make projects reproducible, and collaborate better.
 
+Workflow : 
+
+![simple-workflow-01@2x](https://github.com/jigarkumar027/dvc_ml/assets/53794122/16ceac24-e063-4055-9a88-c82557b5f343)
+
+
 This repo is Regarding Understing DVC Basic 
 
 following steps will help you to understand 
@@ -120,6 +125,3 @@ git add .
 git commit -m "your commit"
 git push origin main
 '''
-
-
-
