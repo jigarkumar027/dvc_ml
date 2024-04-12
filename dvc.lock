@@ -1,13 +1,13 @@
 schema: '2.0'
 stages:
   load_data:
-    cmd: python src/stage_01_load_stage.py
+    cmd: python src/stage_01_load_save.py --config config/config.yaml
     deps:
     - path: config/config.yaml
       hash: md5
       md5: 1c3d0dea75f2c1489a819874c257fd51
       size: 206
-    - path: src/stage_01_load_stage.py
+    - path: src/stage_01_load_save.py
       hash: md5
       md5: ad5a8db4a21ea673c1714a29630ed7ec
       size: 965
