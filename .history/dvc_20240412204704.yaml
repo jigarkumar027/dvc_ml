@@ -45,4 +45,4 @@ stages:
       - artifacts/split_data_dir/train.csv
       - artifacts/model_dir/ElasticNet.model
     outs:
-      - artifacts/report_dir/scores.json
+      - report_dir/scores.json
